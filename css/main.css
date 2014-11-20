@@ -8,37 +8,51 @@ li {
 
 .course-calendar {
   width: 100%;
-  float: left;
-  padding: 10px;
   /* background: whitesmoke; */
-  background: url('../calendar_images/cal.png') no-repeat;
   height:auto;
 }
 
 .course-calendar-months {
-  margin: 2%;
+  width: 50%;
+  float: left;
+  background: url('../calendar_images/cal.png') no-repeat;
 }
 
 
 .course-calendar-months ul{
+  height: 500px;
+  width: 270px;
+  margin-left: 28px;
+  margin-top: 138px;
 }
 
 .course-calendar-months li{
   width: 20%;
-  margin: 2%;
   float: left;
-  padding: 10px;
- /* background: #ccc; */
-  height: 70px;
+  margin: 2%;
+  height: 40px;
+  margin-bottom: 13px;
 }
 
 .course-calendar-info {
   width: 50%;
   float: right;
-  /* background: yellow; */
 }
 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
+.cf:after {
+    clear: both;
+}
 
-
-
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
