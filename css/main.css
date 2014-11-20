@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.course-calendar {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  /* background: whitesmoke; */
+  background: url('../calendar_images/cal.png') no-repeat;
+  height:auto;
+}
+
+.course-calendar-months {
+  margin: 2%;
+}
+
+
+.course-calendar-months ul{
+}
+
+.course-calendar-months li{
+  width: 20%;
+  margin: 2%;
+  float: left;
+  padding: 10px;
+ /* background: #ccc; */
+  height: 70px;
+}
+
+.course-calendar-info {
+  width: 50%;
+  float: right;
+  /* background: yellow; */
+}
+
+
+
+
+
